@@ -62,11 +62,13 @@ function updateHistory(){
 
 
 function setState(){
+ if(localStorage.getItem("currenState") !== null){
     const current = JSON.parse(localStorage.getItem("currentState")) || []
     JS_TEXTAREA.value = current.js;
     HTML_TEXTAREA.value = current.html;
     CSS_TEXTAREA.value = current.css;
     runBtn.click();
+ }
 }
 
 
