@@ -1,6 +1,6 @@
 import styleEditors from "./src/editor.js";
 import { History } from "./src/history.js";
-import contentInterface from "./src/content_interface"
+import contentInterface from "./src/content_interface.js"
 
 styleEditors();
 
