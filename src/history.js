@@ -62,7 +62,7 @@ function updateHistory(){
 
 
 function setState(){
- if(localStorage.getItem("currenState") !== null){
+ if(localStorage.getItem("currentState") !== null){
     const current = JSON.parse(localStorage.getItem("currentState")) || []
     JS_TEXTAREA.value = current.js;
     HTML_TEXTAREA.value = current.html;
