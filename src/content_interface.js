@@ -1,4 +1,4 @@
-import{HTML_TEXTAREA, JS_TEXTAREA, CSS_TEXTAREA,runBtn,iframe} from "./selectors"
+import{HTML_TEXTAREA, JS_TEXTAREA, CSS_TEXTAREA,runBtn,iframe} from "./selectors.js"
 
 function updateIframe(iframe, CONTENT_FINAL){
     iframe.contentWindow.document.open();
