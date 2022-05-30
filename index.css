@@ -1,0 +1,10 @@
+.iframe-col{
+    transition: all 200ms linear;
+ }
+ .wide{
+   width: 90%;
+   height: 70vh!important;
+ }
+ .iframe-col {
+   height: 100%;
+ }

@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "ide_development",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "start": "node main",
+    "server": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "IDE_task"
+  },
+  "author": "Sabuhi Ibrahimov",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
